@@ -34,6 +34,12 @@ jobs:
       - name: Push release
         run: git push --follow-tags
 
+      - name: Update develop branch
+        run: |
+          git checkout develop
+          git rebase main
+          git push
+
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
