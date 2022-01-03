@@ -5,7 +5,6 @@
   "main": "./src/index.ts",
   "scripts": {
     "prepare": "husky install",
-    "prebuild": "node bin/prebuild.js",
     "build": "tsc && node bin/build.js",
     "release": "standard-version"
   },
