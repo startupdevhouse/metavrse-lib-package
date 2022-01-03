@@ -19,11 +19,11 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
 
-      - name: Build package
-        run: npm run build
-
       - name: Release new version
         run: npm run release
+
+      - name: Build package
+        run: npm run build
 
       - name: Deploy package
         run: npm publish
