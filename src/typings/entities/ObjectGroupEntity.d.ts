@@ -1,8 +1,8 @@
-import { CherryKey } from "../cherry/CherryKey";
-import { NODE_TYPES } from "../common/NODE_TYPES";
-import { Vector3 } from "../common/Vector3";
+import { CherryKey } from '../cherry/CherryKey';
+import { NODE_TYPES } from '../common/NODE_TYPES';
+import { Vector3 } from '../common/Vector3';
 
-export interface ObjectGroupEntity {
+export type ObjectGroupEntity = {
   key: CherryKey;
   type: NODE_TYPES.objectGroup;
 
@@ -11,4 +11,4 @@ export interface ObjectGroupEntity {
   scale: Vector3;
 
   visible: boolean;
-}
+};

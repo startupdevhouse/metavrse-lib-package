@@ -1,9 +1,9 @@
-import { CherryKey } from "../cherry/CherryKey";
-import { NODE_TYPES } from "../common/NODE_TYPES";
-import { Vector3 } from "../common/Vector3";
-import { GroupMat } from "../common/GroupMat";
+import { CherryKey } from '../cherry/CherryKey';
+import { NODE_TYPES } from '../common/NODE_TYPES';
+import { Vector3 } from '../common/Vector3';
+import { GroupMat } from '../common/GroupMat';
 
-export interface VideoEntity {
+export type VideoEntity = {
   key: CherryKey;
   type: NODE_TYPES.video;
 
@@ -25,4 +25,4 @@ export interface VideoEntity {
   volume: string;
 
   visible: boolean;
-}
+};

@@ -4,7 +4,7 @@ import { RGB } from '../common/RGB';
 import { Vector3 } from '../common/Vector3';
 import { NODE_TYPES } from '../common/NODE_TYPES';
 
-export interface LightEntity {
+export type LightEntity = {
   key: CherryKey;
   type: NODE_TYPES.light;
 
@@ -14,4 +14,4 @@ export interface LightEntity {
   intensity: number;
 
   visible: boolean;
-}
+};

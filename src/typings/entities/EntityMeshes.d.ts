@@ -1,6 +1,6 @@
-import { RGB } from "../common/RGB";
+import { RGB } from '../common/RGB';
 
-export interface EntityMeshes {
+export type EntityMeshes = {
   use_pbr?: boolean;
 
   albedo_ratio?: RGB;
@@ -38,4 +38,4 @@ export interface EntityMeshes {
   specular_power?: number;
   specular_ratio?: number;
   specular_texture?: string;
-}
+};

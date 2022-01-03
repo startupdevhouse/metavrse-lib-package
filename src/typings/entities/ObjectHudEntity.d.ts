@@ -1,5 +1,5 @@
-import { NODE_TYPES } from "../common/NODE_TYPES";
+import { NODE_TYPES } from '../common/NODE_TYPES';
 
-export interface ObjectHudEntity extends Omit<Object, "type"> {
+export type ObjectHudEntity = Omit<Object, 'type'> & {
   type: NODE_TYPES.objectHud;
-}
+};

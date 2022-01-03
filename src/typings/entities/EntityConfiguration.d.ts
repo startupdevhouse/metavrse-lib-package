@@ -1,6 +1,6 @@
-import { Entity } from "./Entity";
+import { Entity } from './Entity';
 
-export interface EntityConfiguration {
+export type EntityConfiguration = {
   key: string;
   entities: Entity[];
-}
+};

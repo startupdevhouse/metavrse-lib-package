@@ -2,7 +2,7 @@ import { CherryKey } from '../cherry/CherryKey';
 import { Extensions } from '../common/Extensions';
 import { AssetType } from './AssetType';
 
-export interface Asset {
+export type Asset = {
   key: CherryKey;
   title: string; // name will not work! See TreeNodeType
   type: AssetType;
@@ -12,4 +12,4 @@ export interface Asset {
   uiVisible?: boolean;
   uiHighlighted?: boolean;
   extension?: Extensions;
-}
+};

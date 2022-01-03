@@ -1,6 +1,6 @@
-import { TreeNodeType } from "./TreeNodeType";
+import { TreeNodeType } from './TreeNodeType';
 
-export interface TreeNode {
+export type TreeNode = {
   children: TreeNode[];
   // TODO: [MET-640] Change property visible to disable and add visible property (boolean)
   visible: boolean;
@@ -10,4 +10,4 @@ export interface TreeNode {
   type: TreeNodeType;
   uiVisible?: boolean;
   uiHighlighted?: boolean;
-}
+};

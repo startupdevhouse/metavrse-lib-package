@@ -5,7 +5,7 @@ import { EntityMeshes } from './EntityMeshes';
 import { EntityConfiguration } from './EntityConfiguration';
 import { NODE_TYPES } from '../common/NODE_TYPES';
 
-export interface ObjectEntity {
+export type ObjectEntity = {
   key: CherryKey;
   type: NODE_TYPES.object;
 
@@ -33,4 +33,4 @@ export interface ObjectEntity {
       configuration: EntityConfiguration[];
     };
   };
-}
+};
