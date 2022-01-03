@@ -31,6 +31,9 @@ jobs:
           name: bundled-package
           path: dist
 
+      - name: Push release
+        run: git push --follow-tags
+
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
