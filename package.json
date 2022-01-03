@@ -5,13 +5,13 @@
   "description": "",
   "main": "./src/index.ts",
   "scripts": {
-    "build": "tsc && node copy-files.js"
+    "build": "tsc && node bin/index.js",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/startupdevhouse/metavrse-lib-package.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/startupdevhouse/metavrse-lib-package/issues"
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/startupdevhouse/metavrse-lib-package#readme",
   "devDependencies": {
     "prettier": "^2.5.1",
+    "standard-version": "^9.3.2",
     "typescript": "^4.5.4"
   }
 }
