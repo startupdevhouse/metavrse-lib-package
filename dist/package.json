@@ -1,0 +1,16 @@
+{
+  "name": "metavrse-lib-package",
+  "type": "module",
+  "version": "0.1.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/startupdevhouse/metavrse-lib-package.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/startupdevhouse/metavrse-lib-package/issues"
+  },
+  "homepage": "https://github.com/startupdevhouse/metavrse-lib-package#readme"
+}

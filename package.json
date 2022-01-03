@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/startupdevhouse/metavrse-lib-package#readme",
   "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "glob": "^7.2.0",
     "prettier": "^2.5.1",
     "standard-version": "^9.3.2",
     "typescript": "^4.5.4"

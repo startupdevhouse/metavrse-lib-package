@@ -1,13 +1,8 @@
-import path from "path";
-import fs from "fs";
+import path from 'path';
+import fs from 'fs';
+import { TYPINGS_DIR, CHERRY_DIR } from '../config/consts';
 
-const SRC_PATH = "src";
-const DIST_PATH = "dist";
-
-const TYPINGS_PATH = "typings";
-const CHERRY_PATH = "cherry";
-
-const pathsToCopy = [TYPINGS_PATH, CHERRY_PATH];
+const pathsToCopy = [TYPINGS_DIR, CHERRY_DIR];
 
 pathsToCopy.forEach((singlePath) => {
   const mergedSrcPath = path.join(SRC_PATH, singlePath);

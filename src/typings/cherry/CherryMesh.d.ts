@@ -1,4 +1,4 @@
-export type Mesh = {
+export type CherryMesh = {
   mesh_id: number;
   group_id: number;
   material_id: number;
