@@ -4,6 +4,7 @@
   "description": "",
   "main": "./src/index.ts",
   "scripts": {
+    "prepare": "husky install",
     "prebuild": "node bin/prebuild.js",
     "build": "tsc && node bin/build.js",
     "release": "standard-version"
@@ -21,6 +22,7 @@
     "@types/glob": "^7.2.0",
     "fs-extra": "^10.0.0",
     "glob": "^7.2.0",
+    "husky": "^7.0.4",
     "prettier": "^2.5.1",
     "standard-version": "^9.3.2",
     "typescript": "^4.5.4"
