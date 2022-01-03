@@ -13,6 +13,7 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v2
+      - uses: gregante/setup-git-user@v1
       - uses: actions/setup-node@v2
         with:
           node-version: 12
