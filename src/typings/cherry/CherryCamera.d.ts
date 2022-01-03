@@ -1,4 +1,4 @@
-import { Vector3 } from "../common/Vector3";
+import { Vector3 } from '../common/Vector3';
 
 export type CherryCamera = {
   projection: Float32Array;

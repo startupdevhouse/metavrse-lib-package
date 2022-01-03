@@ -1,1 +1,1 @@
-export type VectorKeys = "position" | "rotate" | "scale" | "pivot" | "anchor";
+export type VectorKeys = 'position' | 'rotate' | 'scale' | 'pivot' | 'anchor';

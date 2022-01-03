@@ -1,5 +1,5 @@
-import { Vector3 } from "../common/Vector3";
-import { CherryCamera } from "./CherryCamera";
+import { Vector3 } from '../common/Vector3';
+import { CherryCamera } from './CherryCamera';
 
 export type CherryControls = {
   position: Vector3;

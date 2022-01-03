@@ -1,6 +1,6 @@
-import { CherryKey } from "../cherry/CherryKey";
-import { NODE_TYPES } from "../common/NODE_TYPES";
-import { Vector3 } from "../common/Vector3";
+import { CherryKey } from '../cherry/CherryKey';
+import { NODE_TYPES } from '../common/NODE_TYPES';
+import { Vector3 } from '../common/Vector3';
 
 export type CameraEntity = {
   key: CherryKey;

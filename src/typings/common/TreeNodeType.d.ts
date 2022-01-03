@@ -1,4 +1,4 @@
-import { NODE_TYPES } from "./NODE_TYPES";
+import { NODE_TYPES } from './NODE_TYPES';
 
 export type TreeNodeType =
   | NODE_TYPES.hud

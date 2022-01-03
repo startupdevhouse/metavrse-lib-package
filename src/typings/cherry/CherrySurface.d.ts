@@ -1,4 +1,4 @@
-import { CherrySurfaceScene } from "./CherrySurfaceScene";
+import { CherrySurfaceScene } from './CherrySurfaceScene';
 
 export type CherrySurface = {
   $$: {

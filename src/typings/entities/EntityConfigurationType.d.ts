@@ -1,4 +1,4 @@
-import { NODE_TYPES } from "../common/NODE_TYPES";
+import { NODE_TYPES } from '../common/NODE_TYPES';
 
 export type EntityConfigurationType =
   | NODE_TYPES.hudLink

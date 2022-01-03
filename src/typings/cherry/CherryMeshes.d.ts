@@ -1,4 +1,4 @@
-import { CherryMesh } from "./CherryMesh";
+import { CherryMesh } from './CherryMesh';
 
 export type CherryMeshes = {
   /**
