@@ -1,9 +1,9 @@
-import path from 'path';
-import fs from 'fs';
-import prettier from 'prettier';
-import { DIST_DIR } from '../config/consts';
+const path = require('path');
+const fs = require('fs');
+const prettier = require('prettier');
+const { DIST_DIR } = require('../config/consts.js');
 
-const SRC_PACKAGE_JSON_PATH = path.join(__dirname, '..', 'package.json');
+const SRC_PACKAGE_JSON_PATH = path.resolve(__dirname, '..', 'package.json');
 const DIST_PACKAGE_JSON_PATH = path.join(DIST_DIR, 'package.json');
 
 const config = JSON.parse(fs.readFileSync(SRC_PACKAGE_JSON_PATH));

@@ -1,6 +1,5 @@
 {
   "name": "metavrse-lib-package",
-  "type": "module",
   "version": "0.1.1",
   "description": "",
   "main": "index.js",

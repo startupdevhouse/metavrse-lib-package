@@ -1,8 +1,8 @@
-import { RGB } from "../common/RGB";
-import { Vector3 } from "../common/Vector3";
-import { TreeNodeType } from "../common/TreeNodeType";
-import { CherryKey } from "./CherryKey";
-import { CherryMesh } from "./CherryMesh";
+import { RGB } from '../common/RGB';
+import { Vector3 } from '../common/Vector3';
+import { TreeNodeType } from '../common/TreeNodeType';
+import { CherryKey } from './CherryKey';
+import { CherryMesh } from './CherryMesh';
 
 /**
  * @description ProjectManager.getObject(key) result
@@ -25,7 +25,7 @@ export type CherryProjectManagerObject = {
 
   buckets: any;
   children: any;
-  meshdata: Map;
+  meshdata: Map<unknown, unknown>;
   /** @description Use to retrive mesh specify by index or update mesh by it index */
   mesh: {
     get: (index: number, property: string) => CherryMesh;

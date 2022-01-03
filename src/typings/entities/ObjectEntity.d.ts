@@ -1,9 +1,9 @@
-import { CherryKey } from "../cherry/CherryKey";
-import { GroupMat } from "../GroupMat";
-import { Vector3 } from "../common/Vector3";
-import { EntityMeshes } from "./EntityMeshes";
-import { EntityConfiguration } from "./EntityConfiguration";
-import { NODE_TYPES } from "../common/NODE_TYPES";
+import { CherryKey } from '../cherry/CherryKey';
+import { GroupMat } from '../common/GroupMat';
+import { Vector3 } from '../common/Vector3';
+import { EntityMeshes } from './EntityMeshes';
+import { EntityConfiguration } from './EntityConfiguration';
+import { NODE_TYPES } from '../common/NODE_TYPES';
 
 export interface ObjectEntity {
   key: CherryKey;

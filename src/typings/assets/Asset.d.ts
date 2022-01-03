@@ -7,7 +7,7 @@ export interface Asset {
   title: string; // name will not work! See TreeNodeType
   type: AssetType;
   // TODO: [MET-588] Conditional parameter type
-  children: IAsset[];
+  children: Asset[];
   hidden?: boolean;
   uiVisible?: boolean;
   uiHighlighted?: boolean;

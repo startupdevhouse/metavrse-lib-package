@@ -1,5 +1,5 @@
-import { CherryMeshes } from "./CherryMeshes";
-import { Vector3 } from "../Vector3";
+import { CherryMeshes } from './CherryMeshes';
+import { Vector3 } from '../common/Vector3';
 
 type SetParameter = {
   (arg0: string, arg1: any): void;

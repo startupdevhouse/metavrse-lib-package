@@ -1,8 +1,8 @@
-import path from 'path';
-import fs from 'fs';
-import glob from 'glob';
-import prettier from 'prettier';
-import { SRC_DIR, TYPINGS_DIR } from '../config/consts.js';
+const path = require('path');
+const fs = require('fs');
+const glob = require('glob');
+const prettier = require('prettier');
+const { SRC_DIR, TYPINGS_DIR } = require('../config/consts');
 
 const JOINED_TYPINGS_PATH = path.join(SRC_DIR, TYPINGS_DIR);
 
@@ -16,7 +16,7 @@ const indexContent = filePaths.reduce((joined, filePath) => {
   }
 
   const trimmedPath = relativePath.substring(0, relativePath.length - 5);
-  return joined + `export * from '${trimmedPath}';`;
+  return joined + `export * from './${trimmedPath}';`;
 }, '');
 
 fs.writeFileSync(

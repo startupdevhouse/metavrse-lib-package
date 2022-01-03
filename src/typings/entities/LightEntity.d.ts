@@ -1,8 +1,8 @@
-import { CherryKey } from "../cherry/CherryKey";
-import { GroupMat } from "../GroupMat";
-import { RGB } from "../common/RGB";
-import { Vector3 } from "../common/Vector3";
-import { NODE_TYPES } from "../common/NODE_TYPES";
+import { CherryKey } from '../cherry/CherryKey';
+import { GroupMat } from '../common/GroupMat';
+import { RGB } from '../common/RGB';
+import { Vector3 } from '../common/Vector3';
+import { NODE_TYPES } from '../common/NODE_TYPES';
 
 export interface LightEntity {
   key: CherryKey;

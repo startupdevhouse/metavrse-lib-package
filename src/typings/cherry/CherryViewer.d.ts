@@ -1,9 +1,9 @@
-import { CherryControls } from "./CherryControls";
-import { CherryProjectManager } from "./CherryProjectManager";
-import { CherrySurface } from "./CherrySurface";
-import { CherryViewerFileSystem } from "./CherryViewerFileSystem";
+import { CherryControls } from './CherryControls';
+import { CherryProjectManager } from './CherryProjectManager';
+import { CherrySurface } from './CherrySurface';
+import { CherryViewerFileSystem } from './CherryViewerFileSystem';
 
-export type Viewer = {
+export type CherryViewer = {
   // Asset files objects
   ProjectManager: CherryProjectManager;
   FS: CherryViewerFileSystem;
